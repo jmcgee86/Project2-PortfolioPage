@@ -130,7 +130,13 @@ a.socialIcon:hover, .socialHoverClass {
     font-family: "Sans Open Condensed", sans-serif;
     height: 5em;
 }
-.thumbnail :hover{
-	transform: scale(1.5);
-  	
+
+@media (max-width:480px){
+	#bluebg{
+		text-align: center;
+	}
+	#bluebg img{
+		display: block;
+		margin: auto;
+	}
 }
