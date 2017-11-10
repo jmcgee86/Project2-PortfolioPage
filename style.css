@@ -3,20 +3,23 @@ h1{
     color: white;
     font-family: "Open Sans Condensed", sans-serif;
 }
+
 .page-header h1{
 	color: #34495e;
 }
+
 h2{
-	font-size: 2em;
+	font-size: 2.2em;
 	color: white;
 	font-family: "Open Sans Condensed", sans-serif;
 }
+
 h2 a{
 	color: white;
 }
 
 p{
-    font-size: 1em;
+    font-size: 1.2em;
     color: white;
     font-family: "Open Sans Condensed", sans-serif;
 }
@@ -28,6 +31,7 @@ p{
     font-family: "Open Sans Condensed", sans-serif;
     font-weight: 400;
 }
+
 #mypicture{
     max-height: 10em;
     max-width: 10em;
@@ -36,19 +40,21 @@ p{
 #greybg{
     background-color: #95a5a6;
 }
+
 #navstyle{
     background-color: #95a5a6;
 }
+
 .navtext{
     color: white !important;
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 1.5em;
     font-weight: 200;
 }
+
 #dropbg{
 	background-color: #95a5a6;
 }
-
 
 ul.social-network {
 	list-style: none;
@@ -56,10 +62,12 @@ ul.social-network {
 	margin-left:0 !important;
 	padding: 0;
 }
+
 ul.social-network li {
 	display: inline;
 	margin: 0 5px;
 }
+
 .social-network a.icoTwitter:hover {
 	background-color:#33ccff;
 }
@@ -77,6 +85,7 @@ ul.social-network li {
 .social-network a.icoLinkedin:hover i {
 	color:#fff;
 }
+
 a.socialIcon:hover, .socialHoverClass {
 	color:#44BCDD;
 }
@@ -93,6 +102,7 @@ a.socialIcon:hover, .socialHoverClass {
 	height: 50px;
 	font-size:20px;
 }
+
 .social-circle li i {
 	margin:0;
 	line-height:50px;
@@ -110,6 +120,7 @@ a.socialIcon:hover, .socialHoverClass {
 	-ms-transition: all 0.2s;
 	transition: all 0.2s;
 }
+
 .social-circle i {
 	color: #fff;
 	-webkit-transition: all 0.8s;
@@ -118,8 +129,17 @@ a.socialIcon:hover, .socialHoverClass {
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
 }
+
 .social-circle a {
  background-color: #95a5a6;   
+}
+
+#contactbtn{
+	background-color: #34495e;
+}
+
+#demobtn{
+	background-color: #34495e;
 }
 
 #footer {
@@ -131,7 +151,7 @@ a.socialIcon:hover, .socialHoverClass {
     height: 5em;
 }
 
-@media (max-width:768px){
+@media (max-width:767px){
 	#bluebg{
 		text-align: center;
 	}
@@ -140,3 +160,4 @@ a.socialIcon:hover, .socialHoverClass {
 		margin: auto;
 	}
 }
+
